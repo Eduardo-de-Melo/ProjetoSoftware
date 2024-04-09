@@ -1,0 +1,32 @@
+.header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.config-rectangle {
+    width: 350px; /* Ajuste conforme necessário */
+    height: 80px; /* Ajuste conforme necessário */
+    background-color: #873286; /* Cor de fundo dos retângulos */
+    border: 1px solid #ccc; /* Borda dos retângulos */
+    text-align: center; /* Centraliza o texto */
+    line-height: 80px; /* Centraliza verticalmente o texto */
+    margin-top: 20px;
+    margin-bottom: 10px; /* Espaçamento entre os retângulos */
+    position: relative; /* Permite posicionamento relativo */
+}
+
+/* Estilos para o texto dentro dos retângulos */
+.config-name {
+    position: absolute; /* Permite posicionamento absoluto */
+    top: 50%; /* Alinha o texto verticalmente ao centro */
+    left: 50%; /* Alinha o texto horizontalmente ao centro */
+    transform: translate(-50%, -50%); /* Move o texto para o centro */
+    color: azure;
+    font-family: palatino, serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: #d3bbff;
+}
